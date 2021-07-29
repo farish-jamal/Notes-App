@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+body{
+    background: rgb(33 33 33);
+}
+/* h2{
+    color: #fff;
+    font-family: 'Dancing Script', cursive !important;
+} */
+hr{
+    color: #fff;
+}
+h2{
+    text-align: center !important;
+    margin: 20px 5vw;
+    color: #fff;
+    font-family: 'Dancing Script', cursive !important;
+}
+h5{
+    font-size: 30px !important;
+    font-weight: 900 !important;
+    font-family: 'Dancing Script', cursive !important;
+}
+p{
+    font-size: 25px !important;
+    font-weight: 900 !important;
+    font-family: 'Dancing Script', cursive !important;
+}
+a{
+    font-size: 24px !important;
+    font-weight: 900 !important;
+    font-family: 'Dancing Script', cursive !important;
+}
+button, ::placeholder{
+    font-size: 19px !important;
+    font-weight: 900 !important;
+    font-family: 'Dancing Script', cursive !important;
+}
+
+h1,h2,h3,h4,h5,p{
+    font-family: 'Dancing Script', cursive !important;
+}
+textarea{
+    font-size: 25px !important;
+    font-weight: 900 !important;
+    font-family: 'Dancing Script', cursive !important;
+}
+label{
+    font-size: 20px !important;
+    font-weight: 900 !important;
+    font-family: 'Dancing Script', cursive !important;
+}
+.main .card-body{
+    background-color: #222 !important;
+}
+#addTitle{
+    font-size: 25px !important;
+    font-weight: 900 !important;
+    font-family: 'Dancing Script', cursive !important;
+}
+
+@media only screen and (max-width: 600px){
+    .card{
+        width: 20rem !important;
+    }
+    .form-control {
+        width: 115%;
+    }
+    .main .card-body{
+        background-color: #222 !important;
+    }
+}
+
